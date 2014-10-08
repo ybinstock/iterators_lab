@@ -13,15 +13,18 @@ Research the following term and summarize your findings on it two to three sente
 
 * `higher-order function`
 
+higher order functions are functions that either pass in a function or output a function
+
+
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
-* `max`
-* `min`
-* `each`
-* `map`
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `reject`: [note](http://underscorejs.org/#reject)
+* `max': returns the maximum value in a list.
+* `min`: returns the minumum value in a list.
+* `each`: iterates over each value and does the function of the parameter for each one
+* `map`: like each, but returns a new array.
+* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). Iterates through each value in the list, returning an array of all the values that pass a truth test
+* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce). Iterates over an array and turns it into one accumulated value.
+* `reject`: [note](http://underscorejs.org/#reject). the opposite of filter. returns the values in list without the elements in the truth test
 
 Use the notes provided to help guide you explanation.
 
